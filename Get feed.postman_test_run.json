@@ -1,0 +1,361 @@
+{
+	"id": "83238b80-5427-4780-8b81-937935a7265e",
+	"name": "Get feed",
+	"timestamp": "2023-05-25T21:32:30.774Z",
+	"collection_id": "27504081-f10db29f-8cd8-48e5-9e2d-f3bcd5d154a2",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 1,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-05-25T21:32:24.524Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "509f098b-8902-4132-b2b4-41bf122f3808",
+			"name": "Auth_dummie",
+			"url": "https://test-stand.gb.ru/gateway/login",
+			"time": 828,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				828
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "0293ae9e-40d7-49df-b971-895f00ba53bd",
+			"name": "Post in english",
+			"url": "https://test-stand.gb.ru/gateway/posts",
+			"time": 332,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				332
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "87c991d2-b568-4a77-b227-bb29c6c0bb99",
+			"name": "Post kirilica",
+			"url": "https://test-stand.gb.ru/gateway/posts",
+			"time": 301,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				301
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "86aa2142-b806-4729-aa95-9e4adc7a27e2",
+			"name": "Post without token",
+			"url": "https://test-stand.gb.ru/gateway/posts",
+			"time": 188,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				188
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "10815568-a19a-4c71-b24d-ed67c53743f7",
+			"name": "Post is empty",
+			"url": "https://test-stand.gb.ru/gateway/posts",
+			"time": 261,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				261
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "95568798-eb6f-4d12-822d-f0b54c3de6be",
+			"name": "Post is draft",
+			"url": "https://test-stand.gb.ru/gateway/posts",
+			"time": 305,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				305
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "53aaf461-8f44-4573-8a77-18495b946c00",
+			"name": "Post Delay post to",
+			"url": "https://test-stand.gb.ru/gateway/posts",
+			"time": 322,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				322
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "4fd99c30-a51a-497b-9d4e-4b1f817cc150",
+			"name": "Post title_length41",
+			"url": "https://test-stand.gb.ru/gateway/posts",
+			"time": 290,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				290
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "46a03fb1-b8d6-4f7c-94f4-163f1c447c63",
+			"name": "Post description 100more",
+			"url": "https://test-stand.gb.ru/gateway/posts",
+			"time": 296,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				296
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "c1370a54-111f-4184-9e73-efe2367c3f8d",
+			"name": "Post content 1000more",
+			"url": "https://test-stand.gb.ru/gateway/posts",
+			"time": 255,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				255
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "73996b96-ee1e-4c6b-ad02-5af5635b4ac0",
+			"name": "Post without photo",
+			"url": "https://test-stand.gb.ru/gateway/posts",
+			"time": 227,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				227
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "c15e23a7-ab9b-45e4-8024-eb6e32c12b24",
+			"name": "Post photo more 2Mb",
+			"url": "https://test-stand.gb.ru/gateway/posts",
+			"time": 308,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				308
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "6e7f2f54-ccba-4b0b-828c-dd98f284a0b6",
+			"name": "Post photo png",
+			"url": "https://test-stand.gb.ru/gateway/posts",
+			"time": 251,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				251
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "827e6d3f-48de-4ca7-9505-bff0f6d73501",
+			"name": "Post photo jpg",
+			"url": "https://test-stand.gb.ru/gateway/posts",
+			"time": 258,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				258
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "4d52d6b1-f82e-4612-81ae-cf6a17e46132",
+			"name": "Post photo jpeg",
+			"url": "https://test-stand.gb.ru/gateway/posts",
+			"time": 312,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				312
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 4734,
+	"collection": {
+		"requests": [
+			{
+				"id": "509f098b-8902-4132-b2b4-41bf122f3808",
+				"method": "POST"
+			},
+			{
+				"id": "0293ae9e-40d7-49df-b971-895f00ba53bd",
+				"method": "POST"
+			},
+			{
+				"id": "87c991d2-b568-4a77-b227-bb29c6c0bb99",
+				"method": "POST"
+			},
+			{
+				"id": "86aa2142-b806-4729-aa95-9e4adc7a27e2",
+				"method": "POST"
+			},
+			{
+				"id": "10815568-a19a-4c71-b24d-ed67c53743f7",
+				"method": "POST"
+			},
+			{
+				"id": "95568798-eb6f-4d12-822d-f0b54c3de6be",
+				"method": "POST"
+			},
+			{
+				"id": "53aaf461-8f44-4573-8a77-18495b946c00",
+				"method": "POST"
+			},
+			{
+				"id": "4fd99c30-a51a-497b-9d4e-4b1f817cc150",
+				"method": "POST"
+			},
+			{
+				"id": "46a03fb1-b8d6-4f7c-94f4-163f1c447c63",
+				"method": "POST"
+			},
+			{
+				"id": "c1370a54-111f-4184-9e73-efe2367c3f8d",
+				"method": "POST"
+			},
+			{
+				"id": "73996b96-ee1e-4c6b-ad02-5af5635b4ac0",
+				"method": "POST"
+			},
+			{
+				"id": "c15e23a7-ab9b-45e4-8024-eb6e32c12b24",
+				"method": "POST"
+			},
+			{
+				"id": "6e7f2f54-ccba-4b0b-828c-dd98f284a0b6",
+				"method": "POST"
+			},
+			{
+				"id": "827e6d3f-48de-4ca7-9505-bff0f6d73501",
+				"method": "POST"
+			},
+			{
+				"id": "4d52d6b1-f82e-4612-81ae-cf6a17e46132",
+				"method": "POST"
+			}
+		]
+	}
+}
